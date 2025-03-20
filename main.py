@@ -32,7 +32,7 @@ print(response.content)
 
 import streamlit as st
 st.header("Tweet Generator")
-st.subheader("Generate Tweets in Malayalam!")
+st.subheader("Generate Tweets in Indian Languages!")
 
 Topic = st.text_input("Please Enter the Topic")
 Number = st.number_input("How Many Tweets would You Like to Generate", min_value=1, max_value=10, step=1)
